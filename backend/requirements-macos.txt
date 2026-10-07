@@ -1,0 +1,3 @@
+# macOS-only: pyobjc для иконки в меню-баре (pystray на macOS использует AppKit).
+# Ставится автоматически скриптом run_macos.sh вместе с requirements.txt.
+pyobjc-framework-cocoa

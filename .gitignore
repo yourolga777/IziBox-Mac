@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.egg
+*.pyc
+
+# Node
+node_modules/
+frontend/dev-dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+backend/.env
+
+# Database (runtime)
+*.db
+*.db-wal
+*.db-shm
+
+# Encryption / secrets (runtime)
+backend/data/.encryption_key
+backend/app/data/.encryption_key
+
+# Telegram sessions (runtime)
+backend/data/sessions/
+
+# DB + per-user runtime data
+backend/data/bizibox.db
+backend/data/bizibox.db.legacy
+backend/data/bizibox.db.bak-*
+backend/data/users/
+backend/data/attachments/
+backend/data/backup/
+backend/data/logs/
+backend/data/.active_login
+backend/data/onboarding.enc
+backend/data/ai_config.json
+backend/data/ai_rules.json
+
+# Logs
+*.log
+*.err
+
+# Dependency graph (generated)
+graph.json
+
+# Built docs
+site/
